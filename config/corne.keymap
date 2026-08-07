@@ -43,6 +43,20 @@
             timeout-ms = <150>;
             layers = <0 2 1>;
         };
+
+        CmdShiftLeft {
+            bindings = <&kp LS(LGUI)>;
+            key-positions = <16 15 14>;
+            timeout-ms = <150>;
+            layers = <0 1 2>;
+        };
+
+        CmdShiftRight {
+            bindings = <&kp LS(LGUI)>;
+            key-positions = <19 20 21>;
+            timeout-ms = <150>;
+            layers = <0 1 2>;
+        };
     };
 
     keymap {
