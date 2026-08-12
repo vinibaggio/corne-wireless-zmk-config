@@ -30,20 +30,6 @@
             key-positions = <24 35>;
         };
 
-        OptLeft {
-            bindings = <&kp LALT>;
-            key-positions = <13 14>;
-            timeout-ms = <150>;
-            layers = <0 1 2>;
-        };
-
-        OptRight {
-            bindings = <&kp RALT>;
-            key-positions = <21 22>;
-            timeout-ms = <150>;
-            layers = <0 2 1>;
-        };
-
         CmdShiftLeft {
             bindings = <&kp LS(LGUI)>;
             key-positions = <16 15 14>;
